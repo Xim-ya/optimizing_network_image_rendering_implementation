@@ -1,6 +1,6 @@
-import 'package:efficient_image_caching_implementation/src/first_example_screen.dart';
-import 'package:efficient_image_caching_implementation/src/second_example_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:optimizing_network_image_rendering_implementation/src/first_example_screen.dart';
+import 'package:optimizing_network_image_rendering_implementation/src/second_example_screen.dart';
 
 class RouteScreen extends StatelessWidget {
   const RouteScreen({Key? key}) : super(key: key);

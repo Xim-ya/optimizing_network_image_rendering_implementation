@@ -1,5 +1,5 @@
-import 'package:efficient_image_caching_implementation/src/chached_image_extension.dart';
 import 'package:flutter/material.dart';
+import 'package:optimizing_network_image_rendering_implementation/src/image_extension.dart';
 
 class FirstExampleScreen extends StatelessWidget {
   const FirstExampleScreen({Key? key}) : super(key: key);
