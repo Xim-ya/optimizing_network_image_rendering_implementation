@@ -67,7 +67,7 @@ The display size indicates the size at which the image is `decoded`. In other wo
 To make it easier to understand, let’s use an analogy.
 
 <p align="center">
-    <img src="https://velog.velcdn.com/images/ximya_hf/post/6de794f1-676a-42d7-9093-a6fe81d7a327/image.png">
+    <img src="https://velog.velcdn.com/images/ximya_hf/post/5c0057df-798d-4c9a-8a83-bc78eb509bbe/image.png">
 </p>
 
 Imagine a scenario where you ask an artist to paint a picture based on a photo you took with a friend. When providing the photo to the artist, there’s no need to give them a much `larger billboard-sized photo` than what’s required to create the painting. **In fact, such a large photo can hinder the artist’s work.**
@@ -82,7 +82,7 @@ To paint a precise and fast picture, the artist only needs a photo of the approp
 
 > **Artist**: Flutter Engine 
 > 
-> **Photo** provided to the artist: Display Size
+> **Photo** provided to the artist: Display Size    
 > 
 > **Artist’s act of painting**: Decoding
 > 
