@@ -13,25 +13,15 @@ class FirstExampleScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Column(
-              children: [
-                const Text('Resized Image'),
-                Image.network(
-                  imageUrl,
-                  width: 250,
-                  cacheWidth: 250.cacheSize(context),
-                ),
-              ],
+            Image.network(
+              imageUrl,
+              width: 250,
+              cacheWidth: 250.cacheSize(context),
             ),
             const Divider(),
-            Column(
-              children: [
-                const Text('Original Image'),
-                Image.network(
-                  imageUrl,
-                  width: 250,
-                ),
-              ],
+            Image.network(
+              imageUrl,
+              width: 250,
             ),
           ],
         ),
